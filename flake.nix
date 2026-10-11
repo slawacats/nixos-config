@@ -32,7 +32,7 @@
   	      home-manager.nixosModules.home-manager {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.nd1 = import (nixos-modules + "/home.nix");
+            home-manager.users.nd1 = import ./home.nix;
           }
         ];
         specialArgs = { inherit inputs;
@@ -53,7 +53,7 @@
   	      home-manager.nixosModules.home-manager {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.users.nd1 = import (nixos-modules + "/home.nix");
+            home-manager.users.nd1 = import ./home.nix;
           }
         ];
         specialArgs = { inherit inputs;
