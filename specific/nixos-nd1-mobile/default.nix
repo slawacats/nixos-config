@@ -1,6 +1,10 @@
 {config, pkgs, ...}: 
 
 {
+  imports = [
+    ./hardware-configuration.nix
+  ];
+
   networking.hostName = "nixos-nd1-mobile";
   # environment.shellAliases = {
 	 #  reboot = "pkill brave; sleep 0.5 && reboot";
