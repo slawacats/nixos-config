@@ -29,8 +29,8 @@
 	  cls-1a-main = "ssh main@1a.srv.clorine.ru";
 	  cls-1a-nd1 = "ssh nd1@1a.srv.clorine.ru";
 	  cls-beta-main = "ssh main@10.34.10.94";
-	  cls-1g-main = "ssh main@1a.srv.clorine.ru";
-	  cls-1g-nd1 = "ssh nd1@1a.srv.clorine.ru";
+	  cls-1g-main = "ssh main@1g.srv.clorine.ru";
+	  cls-1g-nd1 = "ssh nd1@1g.srv.clorine.ru";
 	  reboot = "pkill brave; sleep 0.5 && reboot";
 	  poweroff = "pkill brave; sleep 0.5 && poweroff";
 	  timer = "bettertimer";
