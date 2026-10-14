@@ -12,7 +12,5 @@
     joinNetworks = [ "2873fd00f2260e96" ];
   };
 
-  networking.firewall.enable = false;
-
-  services.openssh.enable = true;
+  networking.firewall.enable = true;
 }

@@ -172,6 +172,7 @@
     efibootmgr
     blender
     kicad
+    zoom-us
   ] ++ (with pkgs-unstable; [
     amnezia-vpn
     # graphite

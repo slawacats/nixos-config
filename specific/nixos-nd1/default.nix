@@ -7,6 +7,10 @@
   ];
   
   networking.hostName = "nixos-nd1";
+
+  networking.firewall.enable = lib.mkForce false;
+
+  services.openssh.enable = true;
   
   environment.shellAliases = {
 	  reboot = lib.mkForce "pkill brave; su -c \"sleep 0.5 && efibootmgr -n 2 && reboot\"";
