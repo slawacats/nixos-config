@@ -26,11 +26,11 @@
 	  ce = "sudo hx --config ~/.config/helix/config.toml";
 	  ns = "nix-shell";
 	  c = "clear";
-	  cls-1a-main = "ssh main@1a.srv.clorine.ru";
-	  cls-1a-nd1 = "ssh nd1@1a.srv.clorine.ru";
+	  cls-a1-main = "ssh main@a1.srv.clorine.ru";
+	  cls-a1-nd1 = "ssh nd1@a1.srv.clorine.ru";
 	  cls-beta-main = "ssh main@10.34.10.94";
-	  cls-1g-main = "ssh main@1g.srv.clorine.ru";
-	  cls-1g-nd1 = "ssh nd1@1g.srv.clorine.ru";
+	  cls-g1-main = "ssh main@g1.srv.clorine.ru";
+	  cls-g1-nd1 = "ssh nd1@g1.srv.clorine.ru";
 	  reboot = "pkill brave; sleep 0.5 && reboot";
 	  poweroff = "pkill brave; sleep 0.5 && poweroff";
 	  timer = "bettertimer";
