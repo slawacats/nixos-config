@@ -115,6 +115,7 @@
     lua5_5
     lua-language-server
     nls
+    nickel
 
     # --------- Viewers
     vlc
