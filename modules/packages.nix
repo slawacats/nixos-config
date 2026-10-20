@@ -114,6 +114,7 @@
     go
     lua5_5
     lua-language-server
+    nls
 
     # --------- Viewers
     vlc
