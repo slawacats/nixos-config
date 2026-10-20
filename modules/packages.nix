@@ -116,6 +116,8 @@
     lua-language-server
     nls
     nickel
+    nixd
+    nil
 
     # --------- Viewers
     vlc
