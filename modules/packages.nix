@@ -120,6 +120,10 @@
     nickel
     nixd
     nil
+    vscode-langservers-extracted
+    superhtml
+    svelte-language-server
+    typescript-language-server
 
     # --------- Viewers
     vlc

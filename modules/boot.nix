@@ -4,7 +4,7 @@
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.kernelPackages = pkgs.linuxPackages_7_2;
   boot.initrd.kernelModules = [ "amdgpu" ];
   boot.kernelParams = [ "kvm.enable_virt_at_load=0" ];
   boot.kernel.sysctl."net.ipv4.ip_forward" = 1;
