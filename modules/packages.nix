@@ -62,6 +62,8 @@
     hyprpolkitagent
     hyprlock
     hypridle
+    hyprcursor
+    adwaita-icon-theme
     nwg-drawer
     wlogout
     swaynotificationcenter
