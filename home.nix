@@ -42,6 +42,8 @@
     settings = {
       alias = {
         tree = "log --oneline --graph --decorate --all";
+        logs = "log --oneline --shortstat";
+        logstat = "log --shortstat";
       };
     };
   };
