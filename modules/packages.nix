@@ -183,6 +183,10 @@
     blender
     kicad
     zoom-us
+    irssi
+    senpai
+    figma-linux
+    penpot-desktop
   ] ++ (with pkgs-unstable; [
     amnezia-vpn
     # graphite
