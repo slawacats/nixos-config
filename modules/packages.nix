@@ -187,6 +187,11 @@
     senpai
     figma-linux
     penpot-desktop
+    hyprland-per-window-layout
+    ty
+    ruff
+    python3Packages.jedi-language-server
+    python3Packages.python-lsp-server
   ] ++ (with pkgs-unstable; [
     amnezia-vpn
     # graphite
