@@ -20,5 +20,9 @@
     unix_sock_rw_perms = "0770";
   '';
 
-  virtualisation.docker.enable = true;
+  # virtualisation.docker.enable = true;
+  virtualisation.docker.rootless = {
+    enable = true;
+    setSocketVariable = true;
+  };
 }

@@ -40,6 +40,7 @@
     settings.user.name  = "slawacats";
     settings.user.email = "slawacats@gmail.com";
     settings = {
+      init.defaultBranch = "main";
       alias = {
         tree = "log --oneline --graph --decorate --all";
         logs = "log --oneline --shortstat";
