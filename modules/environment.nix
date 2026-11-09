@@ -31,8 +31,8 @@
 	  cls-beta-main = "ssh main@10.34.10.94";
 	  cls-g1-main = "ssh main@g1.srv.clorine.ru";
 	  cls-g1-nd1 = "ssh nd1@g1.srv.clorine.ru";
-	  reboot = "pkill brave; sleep 0.5 && reboot";
-	  poweroff = "pkill brave; sleep 0.5 && poweroff";
+	  reboot = "pkill -INT brave; sleep 0.5 && reboot";
+	  poweroff = "pkill -INT brave; sleep 0.5 && poweroff";
 	  timer = "bettertimer";
 	  power = "
 	    upower -b | grep percentage
