@@ -198,9 +198,4 @@
     amnezia-vpn
     # graphite
   ]);
-
-  programs.helix = {
-    enable = true;
-    defaultEditor = true;
-  };
 }
