@@ -101,6 +101,7 @@
     zig
     gcc
     clang
+    clang-tools
     gnumake
     git
     jdk21
@@ -124,6 +125,7 @@
     superhtml
     svelte-language-server
     typescript-language-server
+    lldb
 
     # --------- Viewers
     vlc
@@ -196,4 +198,9 @@
     amnezia-vpn
     # graphite
   ]);
+
+  programs.helix = {
+    enable = true;
+    defaultEditor = true;
+  };
 }
