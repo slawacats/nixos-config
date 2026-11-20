@@ -50,9 +50,23 @@
     };
   };
 
-  home.sessionVariables = {
-    PATH = "$HOME/go/bin:$PATH";
+  # home.sessionVariables = {
+  #   PATH = "$HOME/go/bin:$PATH";
+  # };
+
+  programs.ssh = {
+    enable = true;
+    settings."*" = {
+      addKeysToAgent = "confirm";
+      identityFile = [
+        "~/.ssh/id_ed25519"
+        "~/.ssh/id_ed25519_github"
+        "~/.ssh/id_ed25519_aur"
+      ];
+    };
   };
+
+  services.gnome-keyring.enable = true;
 
   home.stateVersion = "25.11";
 }

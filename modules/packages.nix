@@ -3,13 +3,6 @@
 {
   nixpkgs.config.allowUnfree = true;
 
-  programs.ssh = {
-    startAgent = true;
-    extraConfig = ''
-      AddKeysToAgent yes
-    '';
-  };
-
   programs.npm.enable = true;
   programs.steam.enable = true;
   services.flatpak.enable = true;
