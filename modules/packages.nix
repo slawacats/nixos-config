@@ -72,7 +72,7 @@
     # --------- Programms
     discord
     vscode
-    pgadmin4
+    # pgadmin4
     bottles
     yandex-music
     spotify
@@ -126,6 +126,7 @@
     svelte-language-server
     typescript-language-server
     lldb
+    android-tools
 
     # --------- Viewers
     vlc
@@ -144,6 +145,7 @@
     clinfo
     vulkan-tools
     cmatrix
+    usbutils
 
     # --------- Testing
     libsecret
@@ -160,7 +162,7 @@
     easyeffects
     inkscape
     firefox
-    qutebrowser
+    # qutebrowser # UNSECURE
     jetbrains-mono
     lmms
     glow
@@ -188,14 +190,16 @@
     irssi
     senpai
     figma-linux
-    penpot-desktop
+    # penpot-desktop
     hyprland-per-window-layout
     ty
     ruff
     python3Packages.jedi-language-server
     python3Packages.python-lsp-server
+    kitty
   ] ++ (with pkgs-unstable; [
     amnezia-vpn
+    pmbootstrap
     # graphite
   ]);
 }
