@@ -33,7 +33,6 @@
     # --------- Utils
     fastfetch
     htop
-    gparted
     wine64
     ntfs3g
     exfatprogs
@@ -46,8 +45,22 @@
     bat
     stow
     fzf
+    arp-scan
+    wget
+    curl
+    efibootmgr
+    libsecret
+    nmap
+    superfile
+    clock-rs
+    printrun
+    lm_sensors
+    stress-ng
+    # --- Graphical
+    gparted
     mission-center
     crosspipe
+    cpu-x
     
     # --------- Screenshoters
     hyprshot
@@ -68,6 +81,7 @@
     wlogout
     swaynotificationcenter
     xdg-desktop-portal-hyprland
+    hyprland-per-window-layout
 
     # --------- Programms
     discord
@@ -77,6 +91,8 @@
     yandex-music
     spotify
     alacritty
+    kitty
+    cool-retro-term
     tmux
     telegram-desktop
     onlyoffice-desktopeditors
@@ -88,9 +104,23 @@
     qemu 
     brave
     drawing
-    # figma-linux
     pipes-rs
     krita
+    element-desktop
+    cinny-desktop
+    lmms
+    orca-slicer
+    drawio
+    blender
+    kicad
+    figma-linux
+    # penpot-desktop
+    # repath-studio
+    # graphite
+    # vivaldi
+    firefox
+    # qutebrowser # UNSECURE
+    easyeffects
 
     # --------- Dev
     rustc
@@ -127,6 +157,11 @@
     typescript-language-server
     lldb
     android-tools
+    ty
+    ruff
+    python3Packages.jedi-language-server
+    python3Packages.python-lsp-server
+    slint-lsp
 
     # --------- Viewers
     vlc
@@ -134,8 +169,6 @@
     loupe
 
     # --------- Others
-    wget
-    curl
     jq
     pavucontrol
     networkmanager
@@ -145,61 +178,12 @@
     clinfo
     vulkan-tools
     cmatrix
+    genact
     usbutils
 
     # --------- Testing
-    libsecret
-    cinny-desktop
-    cool-retro-term
-    superfile
-    mapscii
-    genact
-    wtfutil
-    clock-rs
-    cpu-x
-    arp-scan
-    nmap
-    easyeffects
-    inkscape
-    firefox
-    # qutebrowser # UNSECURE
-    jetbrains-mono
-    lmms
-    glow
-    element-desktop
-    vesktop
-    printrun
-    litemdview
-    orca-slicer
-    drawio
-    # repath-studio
-    # graphite
-    slint-lsp
-    # vivaldi
-    lm_sensors
-    stress-ng
-    chess-tui
-    gambit-chess
-    uchess
-    stockfish
-    gnuchess
-    efibootmgr
-    blender
-    kicad
-    zoom-us
-    irssi
-    senpai
-    figma-linux
-    # penpot-desktop
-    hyprland-per-window-layout
-    ty
-    ruff
-    python3Packages.jedi-language-server
-    python3Packages.python-lsp-server
-    kitty
   ] ++ (with pkgs-unstable; [
     amnezia-vpn
-    pmbootstrap
     # graphite
   ]);
 }
