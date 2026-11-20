@@ -22,22 +22,22 @@
     config.common.default = "*";
   };
 
-  programs.sway = {
-    enable = true;
-    xwayland.enable = true;
-  };
+  # programs.sway = {
+  #   enable = true;
+  #   xwayland.enable = true;
+  # };
 
-  programs.niri.enable = true;
+  # programs.niri.enable = true;
 
-  services.xserver = {
-    enable = true;
-    xkb = {
-      layout = "us,ru";
-      variant = "";
-      options = "grp:win_space_toggle";
-    };
-    windowManager.bspwm.enable = true;
-    desktopManager.xfce.enable = true; 
-    displayManager.startx.enable = true;
-  };
+  # services.xserver = {
+  #   enable = true;
+  #   xkb = {
+  #     layout = "us,ru";
+  #     variant = "";
+  #     options = "grp:win_space_toggle";
+  #   };
+  #   windowManager.bspwm.enable = true;
+  #   desktopManager.xfce.enable = true; 
+  #   displayManager.startx.enable = true;
+  # };
 }
