@@ -128,6 +128,7 @@
     # rustup
     rust-analyzer
     cargo-dist
+    rustfmt
     zig
     gcc
     clang
