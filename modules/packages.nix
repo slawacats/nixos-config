@@ -3,6 +3,14 @@
 {
   nixpkgs.config.allowUnfree = true;
 
+  services.gnome.gnome-keyring.enable = true;
+  # programs.seahorse.enable = true; # Графический менеджер ключей (полезно для отладки)
+
+  # Активируем gcr-ssh-agent (компонент gnome-keyring для SSH)
+  services.gnome.gcr-ssh-agent.enable = true;
+
+  security.pam.services.login.enableGnomeKeyring = true;
+
   programs.npm.enable = true;
   programs.steam.enable = true;
   services.flatpak.enable = true;
